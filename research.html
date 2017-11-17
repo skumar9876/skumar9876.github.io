@@ -26,8 +26,7 @@
         <a class="navbar-brand" href="#">Saurabh Kumar</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
+        </button        <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
               <a class="nav-link" href="index.html">Home
@@ -55,7 +54,7 @@
       </h1>
 
       <p>
-        I conduct machine learning research, specifically in the areas of computer vision and reinforcement learning. Below are several of the projects that I worked on over the past couple years. Click on the project title to see documentation for the research completed.
+        I conduct machine learning research, specifically in the areas of <b>computer vision</b> and <b>reinforcement learning (RL)</b>. Within RL, my recent work has focused on <b>interactive RL</b>, <b>hierarchical RL</b>, and <b>multi-agent RL</b>. Below are several of the projects that I worked on over the past couple years. Click on the project title to see documentation for the research completed.
       </p>
 
       <div class="row">
@@ -101,7 +100,7 @@
               <h4 class="card-title">
                 <a href="documents/policyshaping.pdf">Policy Shaping with Human Feedback</a>
               </h4>
-              <p class="card-text">Completed in Spring and Fall 2016 at Georgia Tech. I developed infrastructure that allows a human to interact with an RL agent and provide feedback as it learns to navigate a maze environment. I tested how well the <a href="https://papers.nips.cc/paper/5187-policy-shaping-integrating-human-feedback-with-reinforcement-learning.pdf">policy shaping algorithm</a> works in practice. Based on this work, I received the <a href="https://goldwater.scholarsapply.org/"> Barry M. Goldwater Award. </a></p>
+              <p class="card-text">Completed in Spring and Fall 2016 at Georgia Tech. I developed infrastructure that allows a human to interact with an RL agent and provide feedback by speech as it learns to navigate a maze environment. I designed experiments to test how well the <a href="https://papers.nips.cc/paper/5187-policy-shaping-integrating-human-feedback-with-reinforcement-learning.pdf">policy shaping algorithm</a> works in practice. Based on this work, I received the <a href="https://goldwater.scholarsapply.org/"> Barry M. Goldwater Award. </a></p>
             </div>
           </div>
         </div>
@@ -112,7 +111,7 @@
               <h4 class="card-title">
                 <a href="https://arxiv.org/abs/1705.08997">State Space Decomposition and Subgoal Creation for Transfer in Deep Reinforcement Learning</a>
               </h4>
-              <p class="card-text">Completed in Spring 2017 at Georgia Tech. We aimed to transfer an RL agent's skills on a simple task to a more complex task. This work was accepted to the <a href="http://rldm.org/rldm2017/"> 2017 Multi-disciplinary Conference in Reinforcement Learning and Decision Making. </a> </p>
+              <p class="card-text">Completed in Spring 2017 at Georgia Tech. We aimed to transfer an RL agent's skills on a simple task to a more complex task using a recurrent attention mechanism. This work was accepted to the <a href="http://rldm.org/rldm2017/"> 2017 Multi-disciplinary Conference in Reinforcement Learning and Decision Making. </a> </p>
             </div>
           </div>
         </div>
@@ -135,7 +134,7 @@
               <h4 class="card-title">
                 <a href="#">Learning to Compose Skills</a>
               </h4>
-              <p class="card-text">Completed in Fall 2017. We designed a differentiable framework to compose skills learned by separate RL agents. This work has been submitted to the <a href="https://sites.google.com/view/deeprl-symposium-nips2017/"> Deep Reinforcement Learning Symposium</a> at NIPS 2017.</p>
+              <p class="card-text">Completed in Fall 2017. We designed a differentiable framework to compose skills learned by separate RL agents. We focus on compositions that can be represented by <a href="https://arxiv.org/pdf/1704.04341.pdf"> Linear Temporal Logic</a> operators. This work has been submitted to the <a href="https://sites.google.com/view/deeprl-symposium-nips2017/"> Deep Reinforcement Learning Symposium</a> at NIPS 2017.</p>
             </div>
           </div>
         </div>
@@ -146,7 +145,7 @@
               <h4 class="card-title">
                 <a href="#">Unsupervised State Space Decomposition for Hierarchical Reinforcement Learning</a>
               </h4>
-              <p class="card-text">This work is ongoing at Georgia Tech.</p>
+              <p class="card-text">Hierarchical RL splits an RL agent into a meta-controller, which selects subgoals, and a controller, which learns to complete subgoals. We use unsupervised clustering methods to decompose the state space of the meta-controller so that it can be trained using tabular Q-learning methods, significantly speeding up training. This work is ongoing at Georgia Tech.</p>
             </div>
           </div>
         </div>
